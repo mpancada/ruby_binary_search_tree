@@ -9,7 +9,7 @@ no block is provided, the <=> operator is used for comparison.
 search tree structure as new data is added to the tree. Duplicate items should be stored in
 the right subtree.
 - empty? – returns true if the tree is empty. Otherwise returns false.
-- include?(item) [5 pts] – returns true if the item is found in the tree, otherwise returns
+- include?(item) – returns true if the item is found in the tree, otherwise returns
 false. When the tree is balanced, search should take no more than O(log2 n) time.
 - size – returns the number of items in the tree.
 - each_inorder{block} – performs an in-order traversal of the tree, passing each
